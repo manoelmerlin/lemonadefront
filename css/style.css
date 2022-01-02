@@ -1,0 +1,52 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 23px;
+}
+
+a {
+    font-size: 22px;
+}
+
+a:hover {
+    color: #c7d609;
+}
+
+.product-img {
+    height: 350px;
+    width: 300;
+}
+
+@media (max-width: 500px) {
+    .page-logo {
+        width: 220px;
+    }
+}
+
+.product-view {
+    margin-top: 50px;
+}
+
+.sizes {
+    margin-top: 100px;
+}
+
+.price-view {
+    font-size: 19px;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.btn-buy {
+    width: 320px;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    line-height: 45px;
+    font-size: 26px;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
